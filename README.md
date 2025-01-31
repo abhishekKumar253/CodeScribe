@@ -1,35 +1,42 @@
-<h1 align="center">✨ SaaS Code Editor - Next.js 15 ✨</h1>
+<h1 align="center">✨ CodeScribe - SaaS Code Editor - Next.js 15 ✨</h1>
 
-Welcome to **SaaS Code Editor**, a cloud-based, modern code editor built with **Next.js 15**! This project allows developers to write, share, and collaborate on code in real-time with a seamless and customizable experience.
+Welcome to **CodeScribe**, a **SaaS Code Editor** that is cloud-based and real-time, built with Next.js 15! CodeScribe provides a modern and intuitive platform for developers to write, share, and collaborate on code seamlessly. With features designed to enhance the coding experience, it ensures smooth collaboration and offers a customizable interface.
 
 ## 🚀 Highlights
 
-- **Tech Stack:** 
-  - Built with **Next.js 15**, **Convex**, **Clerk**, and **TypeScript** for a powerful, modern web app.
-- **Online IDE:** 
-  - Supports multiple programming languages (10 languages to start with).
-- **Customizable Themes:** 
-  - Offers 5 VSCode-like themes to personalize the code editor environment.
-- **Smart Output Handling:** 
-  - Features clear **Success** and **Error** states for better output visualization.
-- **Flexible Pricing Plans:** 
-  - Free and Pro plans available, allowing users to choose based on their needs.
-- **Code Sharing System:** 
-  - A community-driven system for sharing and collaborating on code snippets.
-- **Advanced Search & Filters:** 
-  - Includes powerful search functionality with advanced filtering options.
-- **Personal Profile:** 
-  - Tracks execution history and allows users to manage their projects efficiently.
-- **Statistics Dashboard:** 
-  - Provides insights into usage patterns and project statistics.
-- **Font Size Controls:** 
-  - Allows users to customize their font size for better readability.
-- **Webhook Integration Support:** 
-  - Enables webhook integration for extending functionalities.
-- **Professional Deployment Walkthrough:** 
-  - Easy-to-follow deployment instructions to launch the app.
+### **Tech Stack:**  
+- **Frontend:** Next.js 15, React, TypeScript, Tailwind CSS  
+- **Backend:** Convex (serverless database & functions)  
+- **Authentication:** Clerk  
+- **Payments:** Lemon Squeezy (for subscription-based plans)  
+- **State Management:** Zustand  
+- **Webhooks & Integrations:** Clerk Webhooks, Lemon Squeezy Webhooks  
+- **Deployment:** Vercel  
+- **Code Editor Features:** Monaco Editor (VSCode-like experience)  
 
-## 🔧 Setup .env File
+### **Core Features:**
+- **🖥️ Online IDE:**  
+  - Supports multiple programming languages (10 languages to start with).  
+- **🎨 Customizable Themes:**  
+  - Offers 5 VSCode-like themes to personalize the editor.  
+- **⚡ Smart Output Handling:**  
+  - Displays clear **Success** and **Error** messages for better output visualization.  
+- **💲 Flexible Pricing Plans:**  
+  - Free and Pro plans available based on user needs.  
+- **📂 Code Sharing System:**  
+  - Share and collaborate on code snippets with the community.  
+- **🔎 Advanced Search & Filters:**  
+  - Powerful search functionality with filtering options.  
+- **👤 Profile Page:**  
+  - Users can view and manage their saved code snippets and execution history.  
+- **📊 Statistics Dashboard:**  
+  - Provides insights into usage patterns and project statistics.  
+- **🔠 Font Size Controls:**  
+  - Adjust font size for better readability.  
+- **🔗 Webhook Integration Support:**  
+  - Enables webhook integration for extending functionalities.  
+
+## 🔧 Setup `.env` File
 
 Make sure to configure your environment variables by creating an `.env` file in the root directory with the following values:
 
@@ -40,10 +47,3 @@ CONVEX_DEPLOYMENT=your_convex_deployment_id_here
 NEXT_PUBLIC_CONVEX_URL=your_convex_url_here
 CLERK_WEBHOOK_SECRET=your_clerk_webhook_secret_here
 LEMON_SQUEEZY_WEBHOOK_SECRET=your_lemon_squeezy_webhook_secret_here
-
-
-### Run the app
-
-```shell
-npm run dev
-```
